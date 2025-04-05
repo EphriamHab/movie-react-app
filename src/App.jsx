@@ -113,7 +113,7 @@ const App = () => {
         )}
 
           <section className="all-movies">
-            <h2 className="mb-[40px]">All Movies</h2>
+            <h2 className="mb-[40px]">Popular Movies</h2>
             {loading ? (
               <Spinner />
             ) : error ? (
